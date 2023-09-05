@@ -1,4 +1,4 @@
-package com.expotv;
+package com.douglowderexpo.ExpoTV;
 
 import android.os.Build;
 import android.os.Bundle;

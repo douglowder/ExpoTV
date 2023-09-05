@@ -1,4 +1,4 @@
-package com.expotv;
+package com.douglowderexpo.ExpoTV;
 
 import android.app.Application;
 import android.content.res.Configuration;
