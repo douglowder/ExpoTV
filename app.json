@@ -11,18 +11,35 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.douglowderexpo.ExpoTV"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.douglowderexpo.ExpoTV"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8bf74bcc-b317-4bbe-b8ee-7dbee5b1173b"
+      }
+    },
+    "owner": "douglowderexpo",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      },
+      "url": "https://u.expo.dev/8bf74bcc-b317-4bbe-b8ee-7dbee5b1173b"
     }
   }
 }
