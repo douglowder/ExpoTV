@@ -14,7 +14,10 @@
   "dependencies": {
     "asn1decoder": "./dependencies/asn1decoder-1.8.0.tgz",
     "expo": "~50.0.0-alpha.1",
+    "expo-av": "~13.6.0",
+    "expo-splash-screen": "~0.22.0",
     "expo-status-bar": "~1.7.1",
+    "expo-updates": "~0.20.0",
     "react": "18.2.0",
     "react-native": "npm:react-native-tvos@0.72.4-0"
   },
